@@ -2471,7 +2471,7 @@
   }
 
   .u-section-21 .u-layout-cell-1 {
-    min-height: 160px;
+    min-height: 162px;
   }
 
   .u-section-21 .u-layout-cell-2 {
@@ -2570,13 +2570,13 @@
     min-height: 314px;
   }
 }@font-face {
-  font-family: 'HomepageBaukasten-Bold11';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/HomepageBaukasten-Bold11.zip);
-}@font-face {
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/Metropolis.zip);
+}@font-face {
+  font-family: 'HomepageBaukasten-Bold11';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HomepageBaukasten-Bold11.zip);
 }

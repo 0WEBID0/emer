@@ -86,7 +86,6 @@
 }
 
 .u-section-2 .u-text-2 {
-  font-weight: 400;
   margin: 0;
 }
 
@@ -214,6 +213,7 @@
   }
 
   .u-section-2 .u-text-2 {
+    font-weight: normal;
     width: 803px;
   }
 
@@ -409,13 +409,13 @@
     width: 340px;
   }
 }@font-face {
-  font-family: 'HomepageBaukasten-Bold11';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/HomepageBaukasten-Bold11.zip);
-}@font-face {
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/Metropolis.zip);
+}@font-face {
+  font-family: 'HomepageBaukasten-Bold11';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HomepageBaukasten-Bold11.zip);
 }
