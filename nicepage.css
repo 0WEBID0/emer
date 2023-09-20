@@ -5,7 +5,7 @@
  */
 
  body{
-  overflow: hidden;
+  overflow: hidden !important;
  }
 
 .fr-clearfix::after {
@@ -42682,7 +42682,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: 15px;
-    margin-right: -10px;
   }
 
   .u-header .u-list-1 {
@@ -42696,9 +42695,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    height: 40px;
-    margin-top: -64px;
-    margin-bottom: 24px;
+    width: 240px;
+    height: 33px;
+    margin-top: -52px;
+    margin-bottom: 20px;
   }
 
   .u-header .u-btn-7 {
