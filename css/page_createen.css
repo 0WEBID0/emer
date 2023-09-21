@@ -1,4 +1,4 @@
- .u-section-1 {
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
   background-position: 50% 50%;
 }
@@ -2573,5 +2573,15 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Metropolis.zip);
+  src: url(../fonts/Metropolis.zip);
+}@font-face {
+  font-family: 'GothamBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/GothamBold.otf);
+}@font-face {
+  font-family: 'GothamRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/GothamRegular.otf);
 }

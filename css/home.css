@@ -40,7 +40,7 @@
   --animation-custom_in-scale: 1;
   font-size: 6.375rem;
   font-weight: 700;
-  margin: 179px 570px 0 auto;
+  margin: 179px 535px 0 0;
 }
 
 .u-section-2 .u-text-2 {
@@ -86,7 +86,6 @@
     font-size: 6rem;
     width: auto;
     margin-right: 442px;
-    margin-left: 0;
   }
 
   .u-section-2 .u-text-2 {
@@ -1626,5 +1625,15 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Metropolis.zip);
+  src: url(../fonts/Metropolis.zip);
+}@font-face {
+  font-family: 'GothamBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/GothamBold.otf);
+}@font-face {
+  font-family: 'GothamRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/GothamRegular.otf);
 }

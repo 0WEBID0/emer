@@ -4,11 +4,7 @@
  * Copyright 2014-2021 Froala Labs
  */
 
- body{
-  overflow: hidden !important;
- }
-
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -17302,7 +17298,7 @@ div.u-video,
   margin: 3px 0 0 0 !important;
 }
 .u-spacing-2:not(.u-text) > li:not(:last-child) {
-  margin-right: 2px;
+  margin-right: -3px;
 }
 .u-spacing-2 > .u-accordion-item + .u-accordion-item {
   margin-top: 2px;
@@ -25028,7 +25024,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: Metropolis;
+  font-family: GothamRegular;
 }
 h1,
 h2,
@@ -25036,7 +25032,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: HomepageBaukasten-Bold11;
+  font-family: GothamBold;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -25057,10 +25053,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: Metropolis !important;
+  font-family: GothamRegular !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: HomepageBaukasten-Bold11 !important;
+  font-family: GothamBold !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -42269,6 +42265,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -42300,7 +42297,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-nav-1 {
     font-size: 0.75rem;
-    letter-spacing: normal;
   }
 
   .u-header .u-image-1 {
@@ -42316,7 +42312,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 17px;
+    margin-top: 35px;
   }
 
   .u-header .u-nav-2 {
@@ -42328,7 +42324,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     height: 62px;
     margin-top: -65px;
-    margin-bottom: 20px;
+    margin-bottom: 38px;
   }
 }
 @media (max-width: 767px) {
@@ -42336,15 +42332,24 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 99px;
   }
 
+  .u-header .u-menu-1 {
+    margin-top: 30px;
+  }
+
   .u-header .u-image-1 {
     width: 201px;
     height: 68px;
     margin-top: -65px;
+    margin-bottom: 34px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
     min-height: 127px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 44px;
   }
 
   .u-header .u-nav-2 {
@@ -42356,6 +42361,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 221px;
     height: 69px;
+    margin-bottom: 47px;
   }
 }
 .u-footer .u-sheet-1 {
